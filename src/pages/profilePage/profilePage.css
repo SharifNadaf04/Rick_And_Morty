@@ -1,0 +1,86 @@
+/* src/components/ProfilePage/ProfilePage.css */
+
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative; /* Position relative for absolute positioning */
+  }
+  
+  /* Back button styling */
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-button svg {
+    margin-right: 5px;
+  }
+  
+  .top-section img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .bottom-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .left-half,
+  .right-half {
+    flex: 1;
+    padding: 0 10px;
+  }
+  
+  .left-half p,
+  .right-half p {
+    margin-bottom: 8px;
+  }
+  
+  .important-info {
+    width: 100%;
+  }
+  
+  .important-info div {
+    margin-bottom: 20px;
+  }
+  
+  .important-info img {
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  
+  /* Responsive styling using media queries */
+  @media screen and (max-width: 768px) {
+    .bottom-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left-half,
+    .right-half {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

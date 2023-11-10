@@ -1,0 +1,23 @@
+.character-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .character-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .character-card h3 {
+    margin: 10px 0;
+  }
+  
+  .character-card p {
+    margin: 5px 0;
+  }
+  
+  

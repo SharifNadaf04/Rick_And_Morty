@@ -1,0 +1,22 @@
+.dropdown {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 10px;
+  color: #333; /* Adjust the text color */
+}
+
+/* Style the dropdown options */
+.dropdown option {
+  background-color: white;
+  color: #333; /* Adjust the text color */
+}
+
+/* Add a hover effect for better visibility */
+.dropdown:hover {
+  background-color: #f0f0f0; /* Adjust the hover background color */
+}
